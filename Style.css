@@ -66,7 +66,7 @@ ol {
 }
 
 .Navigation-option li a {
-    color: var(--halka-black);
+    color: #4f4e4d;
 }
 
 .brand-name h2 {
@@ -319,3 +319,44 @@ ol {
     padding: 47px;
 }
 /* some facts end */
+
+
+/* footer section design start */
+.our-sponsars-all img{
+    width: 131px;
+    height: 39px;
+}
+.our-sponsars-all {
+    display: flex;
+    gap: 100px;
+    margin: 0 auto;
+    align-items: center;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.our-sponsars-heading h1{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+    margin-bottom: 20px;
+}
+.our-sponsars-heading p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+    margin-bottom: 40px;
+}
+
+/* final footer */
+.final-footer{
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+/* footer section design end */
