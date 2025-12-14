@@ -182,6 +182,10 @@ ol {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+.love-and-enjoy-some-card:hover{
+    background-color: aquamarine;
+    transition: all ease-in-out 0.5s;
+}
 
 .shared-style-heading {
     margin-bottom: 15px;
@@ -254,3 +258,64 @@ ol {
 
 }
 /* love and enjoy section */
+
+
+
+/* some facts start */
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.facts-card {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+    width: 190px;
+    height: 134px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.facts-card:hover{
+    background-color: aquamarine;
+    transition: all ease-in-out 0.5s;
+}
+.card-image{
+    justify-content: center;
+    display: flex;
+}
+.some-facts-text h4{
+    text-align: center;
+    font-size: 30px;
+}
+.some-facts-text{
+    margin-top: 10px;
+}
+.some-facts-paragrap p{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.some-facts-heading{
+    margin-top: 100px;
+}
+.some-facts-heading p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+}
+.some-facts-heading h3{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+}
+
+.some-facts-card-main{
+    display: flex;
+    gap: 100px;
+    padding: 47px;
+}
+/* some facts end */
