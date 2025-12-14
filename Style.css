@@ -1,10 +1,256 @@
-*{
+/* shared style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p,a,ul,li,span,ol{
+
+/* font-family: "Work Sans", sans-serif; */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+span,
+ol {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
+
+:root {
+    --background-color: #f1d5b4;
+    --text-black-color: #131313;
+    --halka-black: #727272;
+}
+
+.btn-shared {
+    width: 180px;
+    height: 50px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* shared style */
+
+
+/* Navigation design for navbar start */
+.header-section {
+    background-color: var(--background-color);
+}
+
+.header-container {
+    padding: 20px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.Navigation-option {
+    display: flex;
+    gap: 40px;
+}
+
+.Navigation-option li a {
+    color: var(--halka-black);
+}
+
+.brand-name h2 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 30px;
+}
+
+.brand-name p {
+    color: var(--halka-black);
+}
+
+.explore-btn {
+    margin-top: 30px;
+}
+
+/* Navigation design for navbar end */
+
+/* brand image section */
+.brand-image img {
+    width: 1100px;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* brand image section */
+
+/* Our Futures section */
+.Parent-Our-Futures {
+    width: 1100px;
+    display: flex;
+    gap: 70px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.Our-Futures-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.Our-Futures-image img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.Our-Future-Content {
+    margin-top: 184px;
+}
+
+.Quick-list {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+}
+
+.of-Our {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+}
+
+.Futures {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: #FF900E;
+}
+
+.Our-Future-Content p {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "fira-sans", sans-serif;
+    color: #727272;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Our Futures section */
+
+
+
+
+/* love and enjoy section */
+#love-and-enjoy {
+    margin-top: 50px;
+}
+
+.love-and-enjoy-big-parent {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.love-and-enjoy-parent {
+    display: flex;
+    gap: 20px;
+}
+
+.love-and-enjoy-some-card {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+    width: 462px;
+    height: 80px;
+    padding: 30px;
+    font-family: "fira-sans", sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.shared-style-heading {
+    margin-bottom: 15px;
+}
+
+.love-and-enjoy-heading h1 {
+    position: relative;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.love-and-enjoy-heading p {
+   font-size: 16px;
+   font-weight: 300;
+   font-family: "fira-sans", sans-serif;
+   color: var(--halka-black);
+   margin-bottom: 20px;
+}
+
+.love-and-enjoy-heading h1::before {
+    margin-left: -20px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    background-color: #FF900E;
+    /* orange line */
+    border-radius: 3px;
+}
+
+/* right section */
+.love-and-enjoy-iamge img {
+    width: 492px;
+    height: 785px;
+    position: relative;
+}
+
+.years-card {
+    margin-left: -44px;
+    border-radius: 10px;
+    margin-top: -105px;
+    background-color: #FF900E;
+    width: 217px;
+    height: 98px;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+}
+.years-card h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: white;
+
+}
+.years-card p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+
+}
+/* love and enjoy section */

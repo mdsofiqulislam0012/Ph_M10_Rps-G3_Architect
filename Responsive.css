@@ -1,0 +1,97 @@
+
+@media (min-width: 320px) and (max-width: 576px) { 
+    .header-container {
+    padding: 20px;
+    max-width: 284px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.Navigation-option {
+    display: flex;
+    gap: 7px;
+}
+.logo h3{
+    font-size: 13px;
+}
+
+.btn-shared {
+    max-width: 123px;
+    height: 43px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.text-center {
+    text-align: center;
+    font-size: 14px;
+}
+.brand-name h2 {
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 12px;
+}
+.brand-image img {
+    max-width: 306px;
+    height: 220px;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+}
+
+@media (min-width: 577px) and (max-width: 768px) { 
+    .header-container {
+    padding: 20px;
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.brand-name h2 {
+    margin-top: 66px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 23px;
+}
+.brand-image img {
+    width: 701px;
+    height: 366px;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+ }
+
+@media (min-width: 769px) and (max-width: 1024px) { 
+    .header-container {
+    padding: 20px;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.brand-name h2 {
+    margin-top: 78px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 30px;
+}
+.brand-image img {
+    width: 954px;
+    height: 430px;
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+}
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) { }
