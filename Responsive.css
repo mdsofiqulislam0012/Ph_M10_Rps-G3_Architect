@@ -41,8 +41,232 @@
     border-radius: 8px;
     margin-bottom: 30px;
 }
+.Our-Futures-image {
+    gap: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    order: 2;
+}
+.Our-Futures-image img {
+    width: 300px;
+    height: 270px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.love-and-enjoy-heading h1 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 289px;
+}
+.love-and-enjoy-heading{
+    margin-left: 6px;
+}
+.love-and-enjoy-big-parent {
+    width: 320px;
+    margin: 0 auto;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+.love-and-enjoy-heading p {
+    width: 296px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+    margin-bottom: 13px;
+    padding: 12px;
+}
+.love-and-enjoy-some-card {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+    width: 266px;
+    height: 125px;
+    /* overflow: hidden; */
+    padding: 15px;
+    font-family: "fira-sans", sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+.Parent-Our-Futures {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.Our-Future-Content {
+    margin-top: 9px;
+    order: 1;
+}
+.Our-Futures-btn{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+}
+.Our-Future-Content p {
+    width: 301px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "fira-sans", sans-serif;
+    color: #727272;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 9px;
+}
+.Our-Future-Content h3 {
+    width: 305px;
+    padding: 7px;
+}
+.Futures {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: #FF900E;
+    display: flex;
+    justify-content: center;
+}
+/* right site */
+.love-and-enjoy-iamge img {
+    width: 292px;
+    height: 448px;
+    position: relative;
+    margin-left: 20px;
+}
+.love-and-enjoy-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.years-card h1 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: white;
 }
 
+.years-card {
+    margin-left: 77px;
+    border-radius: 10px;
+    margin-top: -56px;
+    background-color: #FF900E;
+    width: 132px;
+    height: 58px;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+/* some facts */
+.some-facts-heading h3 {
+    justify-content: center;
+    margin-left: 11px;
+    text-align: center;
+    width: 308px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+}
+.some-facts-heading p {
+    margin-left: 17px;
+    padding: 8px;
+    width: 294px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+}
+.some-facts-card-main {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.facts-card {
+    margin-left: 10px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+    width: 251px;
+    height: 134px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+/* footer section */
+.our-sponsars-heading h1 {
+    margin-left: 16px;
+    width: 300px;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.our-sponsars-heading p {
+    margin-left: 8px;
+    width: 297px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.final-footer {
+    margin-left: 6px;
+    background-color: var(--background-color);
+    padding: 8px;
+    border-radius: 1px;
+    margin-bottom: 0px;
+    margin-top: 29px;
+    width: 291px;
+}
+
+.our-sponsars-all {
+    display: none;
+    gap: 100px;
+    margin: 0 auto;
+    align-items: center;
+}
+.our-sponsars-heading{
+    width: 320px;
+}
+
+.footer-second-image{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+}
+.footer-first-image{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+}
+/* footer section */
+}
+
+/* change device */
 @media (min-width: 577px) and (max-width: 768px) { 
     .header-container {
     padding: 20px;
@@ -65,8 +289,165 @@
     border-radius: 8px;
     margin-bottom: 30px;
 }
+
+/* our futures */
+
+.Our-Futures-image {
+    width: 460px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.Our-Futures-image img {
+    width: 199px;
+    height: 243px;
+    border-radius: 8px;
+    margin-left: 26px;
+}
+.Parent-Our-Futures {
+    width: 768px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.Our-Future-Content p {
+    width: 266px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "fira-sans", sans-serif;
+    color: #727272;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Our-Future-Content{
+    margin-top: 139px;
+    width: 254px;
+}
+.of-Our {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+}
+.Quick-list {
+    font-size: 37px;
+    font-weight: 500;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+}
+
+.love-and-enjoy-some-card {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    height: 80px;
+    padding: 26px;
+    font-family: "fira-sans", sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.shared-style-heading {
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+.love-and-enjoy-iamge img {
+    width: 362px;
+    height: 738px;
+    position: relative;
+}
+
+.years-card {
+    margin-left: 12px;
+    border-radius: 10px;
+    margin-top: -55px;
+    background-color: #FF900E;
+    width: 169px;
+    height: 71px;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+}
+.years-card h1 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: white;
+}
+.text-and-box{
+    width: 370px;
+    margin-left: 27px;
+}
+
+
+/* love and enjoy section */
+.love-and-enjoy-iamge img {
+    width: 324px;
+    height: 738px;
+    position: relative;
+}
+/* love and enjoy section */
+
+
+
+
+/* some facts section */
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+.some-facts-heading h3 {
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "fira-sans", sans-serif;
+    color: var(--text-black-color);
+    display: flex;
+}
+.some-facts-heading p {
+    padding: 8px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "fira-sans", sans-serif;
+    color: var(--halka-black);
+    justify-content: center;
+}
+.some-facts-card-main {
+    display: flex;
+    gap: 15px;
+    padding: 34px;
+}
+
+.our-sponsars-all {
+    display: flex;
+    gap: 34px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.our-sponsars-all img {
+    width: 113px;
+    height: 39px;
+}
+.final-footer {
+    background-color: var(--background-color);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+/* some facts section */
  }
 
+
+
+
+
+/* change device */
 @media (min-width: 769px) and (max-width: 1024px) { 
     .header-container {
     padding: 20px;
